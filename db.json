@@ -1,0 +1,46 @@
+{
+  "sales": [
+    {
+      "productName": "Laptop",
+      "category": "Electronics",
+      "amount": "1200",
+      "status": "In Stock",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "productName": "Office Chair",
+      "category": "Furniture",
+      "amount": "350",
+      "status": "In Stock"
+    },
+    {
+      "id": "3",
+      "productName": "Desk Lamp",
+      "category": "Accessories",
+      "amount": "45",
+      "status": "Finished"
+    },
+    {
+      "id": "4",
+      "productName": "Wireless Mouse",
+      "category": "Electronics",
+      "amount": "25",
+      "status": "In Stock"
+    },
+    {
+      "id": "5",
+      "productName": "Notebook",
+      "category": "Stationery",
+      "amount": "15",
+      "status": "Finished"
+    },
+    {
+      "id": "6a21",
+      "productName": "Wheat",
+      "category": "Cereal",
+      "amount": "300",
+      "status": "Finished"
+    }
+  ]
+}
