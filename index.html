@@ -24,7 +24,7 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         footer {
-            background-color: #283618;
+            background-color: #f77f00;
             color: white;
         }
         .logo-text {
@@ -35,11 +35,11 @@
 </head>
 <body>
    
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
         <div class="container">
-            <a class="navbar-brand logo-text" href="#">
-                <i class="bi bi-box-seam me-2"></i>STOCK-MANAGER
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logo.png" alt="Logo" style="height: 60px; width: auto;" class="me-2">
+                <span class="logo-text">STOCK-MANAGER</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -57,8 +57,6 @@
         </div>
     </nav>
 
-    
-    <!-- Hero Section -->
     <section id="home" class="hero d-flex align-items-center">
         <div class="container">
             <div class="row align-items-center">
@@ -75,8 +73,6 @@
         </div>
     </section>
 
-   
-    <!-- About Section -->
     <section id="about" class="py-5">
         <div class="container">
             <h1 class="text-center mb-4">How It Works</h1>
@@ -101,8 +97,6 @@
         </div>
     </section>
 
-   
-    <!-- Features Section -->
     <section id="features" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4">Features</h2>
@@ -139,8 +133,6 @@
         </div>
     </section>
 
-   
-    <!-- Dashboard Section with CRUD -->
     <section id="dashboard" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">Sales Dashboard</h2>
@@ -148,7 +140,6 @@
             <div class="card p-4">
                 <h4 class="mb-4">Manage Sales Records</h4>
                 
-                <!-- Add New Record Form -->
                 <form id="sales-form" class="mb-4">
                     <h5>Add New Record</h5>
                     <div class="row g-3">
@@ -173,7 +164,6 @@
                     </div>
                 </form>
 
-                <!-- Sales Records Table -->
                 <h5>Sales Records</h5>
                 <div class="table-responsive">
                     <table class="table table-striped">
@@ -188,7 +178,6 @@
                             </tr>
                         </thead>
                         <tbody id="sales-table-body">
-                            <!-- Records will be loaded here by JavaScript -->
                         </tbody>
                     </table>
                 </div>
@@ -196,8 +185,6 @@
         </div>
     </section>
 
-    
-    <!-- Footer -->
     <footer id="contact" class="py-5">
         <div class="container">
             <div class="row">
@@ -213,8 +200,8 @@
                 </div>
                 <div class="col-md-4">
                     <h5>Contact</h5>
-                    <p><i class="bi bi-envelope me-2"></i>info@stockmanager.com</p>
-                    <p><i class="bi bi-telephone me-2"></i>(123) 456-7890</p>
+                    <p><i class="bi bi-envelope me-2"></i>stockmanager@gmail.com</p>
+                    <p><i class="bi bi-telephone me-2"></i>+254 -7323920930.</p>
                 </div>
             </div>
             <div class="text-center mt-3">
